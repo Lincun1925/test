@@ -1,11 +1,14 @@
 package org.wsh;
 
+
+import java.util.ResourceBundle;
+
 /**
  * 数据库连接池基础配置
  */
 public class DBConfig {
     //jdbc驱动，对jdbc标准接口的实现，操作对应数据库
-    public static final String driverName = "com.mysql.jdbc.Driver";
+    public static String driverName = "";
     //数据库连接url
     public static final String url = "jdbc:mysql://localhost:3306/db2";
     //账号密码
